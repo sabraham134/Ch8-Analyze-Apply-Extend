@@ -1,0 +1,50 @@
+/*
+Author: Samantha Abraham
+Date: 4/1/2024
+File Name: styles08.css
+*/
+
+/* CSS Reset */
+body, main, footer, table {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+  background-color: #ffe5dc;
+}
+
+table {
+  width: 80%;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: auto;
+  margin-left: auto;
+  border: 3px solid #fd4d0c;
+}
+
+td {
+  border-color: #a22c02;
+}
+
+table, tr, th, td {
+  border-collapse: collapse;
+  padding: 2%;
+}
+
+th, td {
+  border: 1px solid #fd4d0c;
+}
+
+thead {
+color: white;
+}
+
+tr:nth-child(odd) {
+  background-color: #fe9772;
+}
+
+.row {
+  background-color: #fe9722;
+}
